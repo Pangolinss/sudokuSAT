@@ -7,7 +7,7 @@ int encode(int a, int b, int c){
 }
 bool isWildCard(char i)
 {
-    return !('1' <= i <= '9')
+    return !('1' <= i <= '9');
 }
 
 int main(){
